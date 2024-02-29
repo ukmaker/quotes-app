@@ -1,2 +1,1 @@
-# quotes-app
-Random quotes FTW! Just for giving a CI/CD tooling demo something to work with
+Copied from https://komodor.com/blog/deploying-a-python-application-with-kubernetes/
