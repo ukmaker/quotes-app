@@ -17,5 +17,9 @@ def get_quote():
     quote = random.choice(quotes)
     return jsonify({'quote': quote})
 
+@app.route('/healthz')
+def healthz():
+    return 'Alive alive-o'
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
